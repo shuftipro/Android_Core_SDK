@@ -11,9 +11,10 @@ A user-friendly interface with an easy API integration procedure enables busines
 * [Verification Types You Can Get](#verification-types-you-can-get)
 * [Integration](#Integration)
 * [Initiate Request](#Initiate-Request)
-* [Request Object Parameters](#Request-Object-Parameters)
-* [Config Object Parameters ](#Config-Object-Parameters)
 * [Auth Key Object Parameters ](#Auth-Key-Object-Parameters)
+* [Config Object Parameters ](#Config-Object-Parameters)
+* [Request Object Parameters](#Request-Object-Parameters)
+* [Customisations ](#Customisations)
 * [HTTP Codes](#HTTP-Codes)
 * [Response Logging](#response-logging)
 * [Status Response](#status-response)
@@ -716,11 +717,25 @@ This key specifies if the proof needs to be uploaded.
         Provide a valid date. Please note that the date should be before today.<br>
         **Example** 1990-12-31
 
+## Customisations
+ShuftiPro supports a set of customisation options that will influence the appearance of the sdk. The color of buttons and font can be customised by changing the values of corresponding variables in [color.xml.](https://api.shuftipro.com/api/docs/#supported-languages)<br>
+The strings of SDK can also be customised through [strings.xml](https://api.shuftipro.com/api/docs/#supported-languages) class. Translations of choice can be added in the provided [strings.xml](https://api.shuftipro.com/api/docs/#supported-languages)<br>
+To apply and use dark theme/mode in SDK, initialise the SDK with provided parameter in config object.
+
+        try {
+            ...
+            Config.put("darkMode",  true);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+
+
 ## HTTP Codes
 Following is a list of HTTP codes which are generated in responses by Shufti Pro Verification API.
 HTTP code     | HTTP message         | Message        |                                   
 --------------|----------------------| -------------- |
-200           | OK                 | success                                    
+200           | OK                   | success                                    
 400           | Bad Request          | bad request: one or more parameter is invalid or missing
 401           | Unauthorized         | unauthorized: invalid signature key provided in the request
 402           | Request Failed       | invalid request data: missing required parameters
