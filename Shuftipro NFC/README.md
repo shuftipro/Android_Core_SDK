@@ -1,10 +1,10 @@
 # ShuftiPro NFC SDK
 ## Table of Contents
-* [General Requirements]
-* [Permissions]
-* [Prerequisite]
+* [General Requirements](#general-requirements)
+* [Permissions](#permissions)
+* [Prerequisite](#prerequisite)
 * [Integration](#integrating-nfc-sdk)
-* [nfc_verification Parameter]
+* [nfc_verification Parameter](#nfc-verification-parameter)
 
 ## General Requirements
 Minimum requirements for SDK include
