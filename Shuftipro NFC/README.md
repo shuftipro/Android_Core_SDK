@@ -4,7 +4,7 @@
 * [Permissions](#permissions)
 * [Prerequisite](#prerequisite)
 * [Integration](#integrating-nfc-sdk)
-* [nfc_verification Parameter](#nfc-verification-parameter)
+* [nfc_verification Parameter](#nfc_verification-parameter)
 
 ## General Requirements
 Minimum requirements for SDK include
