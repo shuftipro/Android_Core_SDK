@@ -34,7 +34,7 @@ allprojects {
 **Step 2:** Add the dependency in app level bulid.gradle:
 ```
 dependencies {
-		implementation 'com.github.shuftipro:NFC:2.0.1'
+		implementation 'com.github.shuftipro:NFC:2.0.2'
 }
 ```
 **Step 3:** Enable multi dex in project level bulid.gradle:

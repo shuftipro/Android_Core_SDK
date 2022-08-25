@@ -45,7 +45,6 @@ To integrate Services follow the below steps;
 ```
 implementation files('../libs/shuftipro-sdk.aar') 
 ```
-**Note:** Make sure to remove *android:theme="@style/YourTheme"* from app manifest.xml file.
 
 ## Verification Types You Can Get:
 Shufti Pro’s services come in three variations. You have an option of choosing all or any one of them that fulfills your client's requirements. Following are the types of verification services;
@@ -718,8 +717,8 @@ This key specifies if the proof needs to be uploaded.
         **Example** 1990-12-31
 
 ## Customisations
-ShuftiPro supports a set of customisation options that will influence the appearance of the sdk. The color of buttons and font can be customised by changing the values of corresponding variables in [color.xml.]([https://api.shuftipro.com/api/docs/#supported-languages](https://github.com/shuftipro/Android_Core_SDK/blob/main/Core%20SDK/ShuftiProCore/app/src/main/res/values/colors.xml))<br>
-The strings of SDK can also be customised through [strings.xml]([https://api.shuftipro.com/api/docs/#supported-languages](https://github.com/shuftipro/Android_Core_SDK/blob/main/Core%20SDK/ShuftiProCore/app/src/main/res/values/strings.xml)) class. Translations of choice can be added in the provided [strings.xml]([https://api.shuftipro.com/api/docs/#supported-languages](https://github.com/shuftipro/Android_Core_SDK/blob/main/Core%20SDK/ShuftiProCore/app/src/main/res/values/strings.xml))<br>
+ShuftiPro supports a set of customisation options that will influence the appearance of the sdk. The color of buttons and font can be customised by changing the values of corresponding variables in [color.xml.](https://api.shuftipro.com/api/docs/#supported-languages)<br>
+The strings of SDK can also be customised through [strings.xml](https://api.shuftipro.com/api/docs/#supported-languages) class. Translations of choice can be added in the provided [strings.xml](https://api.shuftipro.com/api/docs/#supported-languages)<br>
 To apply and use dark theme/mode in SDK, initialise the SDK with provided parameter in config object.
 
         try {
@@ -813,3 +812,4 @@ If you have any queries regarding the implementation of SDK, please feel free to
 Date            | Description 
 --------------- | ------------
 10 Aug 2022     | Core SDK
+25 Aug 2022     | Improved functionality
